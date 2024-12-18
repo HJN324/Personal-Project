@@ -1,0 +1,63 @@
+def main_menu():
+    print("Menu:")
+    print("1. Learn about finance")
+    print("2. Invest/Transact")
+    print("3. News")
+while True: 
+    main_menu()
+    choice = input("enter your choice: ")
+    if choice == "2":
+            def main_menu():
+                print("Invest") 
+                print("Transact")
+                print("Back")
+            while True: 
+                main_menu()
+                choice = input("enter your choice: ")
+                if choice == "Invest":
+                        amount = input("How much money would you like to enter? ")
+                        print(f"You have entered: ${amount}")
+                        more = input("Do you want to perform another action? (yes/no): ")
+                        if more.lower() != 'yes':
+                              break
+                elif choice == "Transact":
+                     amount = input("How much money would you like to take out? ")
+                     print(f"You have requested to take out: ${amount}")
+                     more = input("Do you want to perform another action? (yes/no): ")
+                     if more.lower() != 'yes':
+                              break
+                
+    if choice == "3":
+            def main_menu():
+                  print("News today - ")
+
+    if choice == "1":
+            def main_menu():
+                  print("You chose to learn about finance")
+                  print("What would you like to learn today?")
+                  print("a. Investing")
+                  print("b. Saving")
+                  print("c. Spending your money")
+                  
+                  
+            while True:
+                main_menu()
+                choice = input("Enter your choice")
+                if choice == "a":
+                        print(" Investing is like planting a seed in a garden. Instead of spending all your money on toys or candy right away, you save some of it and use it to buy things that can grow in value, like stocks (tiny pieces of a company) or bonds (like lending money to a company or the government). Over time, just like a seed grows into a big tree, your investments can grow and make you more money. It takes patience and smart choices, but it’s a way to help your money grow so you can have more in the future")
+                        more = input("Do you want to perform another action? (yes/no): ")
+                        if more.lower() != 'yes':
+                              break
+
+
+                elif choice == "b":
+                        print("Saving is like putting your money in a special piggy bank instead of spending it right away. Imagine you get some money from your allowance or as a gift. Instead of buying candy or toys immediately, you put it in your piggy bank and let it stay there. Over time, your money adds up, and you can use it later to buy something bigger or more important.")
+                        more = input("Do you want to perform another action? (yes/no): ")
+                        if more.lower() != 'yes':
+                              break
+
+                elif choice == "c":
+                        print("Spending money is like using your allowance or gift money to buy things you want or need right now. Imagine you have some money saved up, and you decide to use it to buy a toy, a game, or some candy. When you spend money, you’re trading it for something that makes you happy or helps you in some way. It’s important to think about what you really want or need before spending, so you make good choices and don’t run out of money too quickly.")
+                        more = input("Do you want to perform another action? (yes/no): ")
+                        if more.lower() != 'yes':
+                              break
